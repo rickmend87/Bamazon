@@ -17,7 +17,7 @@ function selection() {
         if (err) throw err;
 
         var table = new Table({
-            head: ["Product ID".cyan, "Product Name".cyan, "Department Name".cyan, "Price".cyan, "Quantity".cyan],
+            head: ["Product ID", "Product Name", "Department Name", "Price", "Quantity"],
             colWidths: [13, 20, 20, 13, 13],
         });
 
